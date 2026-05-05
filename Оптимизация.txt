@@ -1,0 +1,16 @@
+<!-- This site is optimized with the Yoast SEO plugin v20.10 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Аренда рекламного места в Перми - Рекламное агентство VSV</title>
+	<meta name="description" content="Заказать баннерную и видео рекламу на медиафасаде в городе Пермь. Большой яркий экран с аудиторией более 100 000 человек! Для заказа звоните: +7 (342) 247-99-11" />
+	<meta property="og:locale" content="ru_RU" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Аренда рекламного места в Перми - Рекламное агентство VSV" />
+	<meta property="og:description" content="Заказать баннерную и видео рекламу на медиафасаде в городе Пермь. Большой яркий экран с аудиторией более 100 000 человек! Для заказа звоните: +7 (342) 247-99-11" />
+	<meta property="og:url" content="https://vsv-perm59.ru/" />
+	<meta property="og:site_name" content="VSV Media Corporation" />
+	<meta property="article:modified_time" content="2024-03-07T06:39:08+00:00" />
+	<meta property="og:image" content="https://vsv-perm59.ru/wp-content/uploads/2024/03/resurs-1@2x.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://vsv-perm59.ru/","url":"https://vsv-perm59.ru/","name":"Аренда рекламного места в Перми - Рекламное агентство VSV","isPartOf":{"@id":"https://vsv-perm59.ru/#website"},"primaryImageOfPage":{"@id":"https://vsv-perm59.ru/#primaryimage"},"image":{"@id":"https://vsv-perm59.ru/#primaryimage"},"thumbnailUrl":"https://vsv-perm59.ru/wp-content/uploads/2024/03/resurs-1@2x.png","datePublished":"2023-06-08T07:36:30+00:00","dateModified":"2024-03-07T06:39:08+00:00","description":"Заказать баннерную и видео рекламу на медиафасаде в городе Пермь. Большой яркий экран с аудиторией более 100 000 человек! Для заказа звоните: +7 (342) 247-99-11","breadcrumb":{"@id":"https://vsv-perm59.ru/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://vsv-perm59.ru/"]}]},{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://vsv-perm59.ru/#primaryimage","url":"https://vsv-perm59.ru/wp-content/uploads/2024/03/resurs-1@2x.png","contentUrl":"https://vsv-perm59.ru/wp-content/uploads/2024/03/resurs-1@2x.png"},{"@type":"BreadcrumbList","@id":"https://vsv-perm59.ru/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница"}]},{"@type":"WebSite","@id":"https://vsv-perm59.ru/#website","url":"https://vsv-perm59.ru/","name":"VSV Media Corporation","description":"г. Пермь","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://vsv-perm59.ru/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"}]}</script>
+	<meta name="google-site-verification" content="-LX1R5EpCvBUEeV_SqcahP12xYc7texrO88KzojWvdM" />
+	<meta name="yandex-verification" content="23417d9355b042ff" />
+	<!-- / Yoast SEO plugin. -->

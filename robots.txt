@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 1
+Host: https://alfasnab59.ru/
+Sitemap: https://alfasnab59.ru/sitemap.xml
