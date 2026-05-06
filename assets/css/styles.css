@@ -1135,3 +1135,101 @@ tr {
 .prod_price {
   text-align: center;
 }
+
+/*=============== МОБИЛЬНАЯ КНОПКА ЗВОНКА ===============*/
+.call-btn-mobile {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: var(--first-color);
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: var(--font-semi-bold);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.15);
+}
+
+.call-btn-mobile:hover,
+.call-btn-mobile:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.95;
+}
+
+.call-btn-mobile svg {
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 767.98px) {
+  .call-btn-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Отступ снизу чтобы контент не уходил под кнопку */
+  body {
+    padding-bottom: 56px;
+  }
+  /* Кнопка scroll-up выше фиксированной кнопки */
+  .scrollup {
+    bottom: 4.5rem !important;
+  }
+}
+
+/*=============== АДАПТИВНОСТЬ ТАБЛИЦ ===============*/
+.prod_card_table {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prod_card_table table {
+  min-width: 420px;
+}
+
+@media (max-width: 576px) {
+  .prod_card_table table {
+    font-size: 0.82rem;
+  }
+  .prod_card_table th,
+  .prod_card_table td {
+    padding: 6px 8px;
+  }
+  /* Карточки товаров на главной — одна в ряд */
+  .reviews__card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  /* Форма контактов */
+  .map__form {
+    flex-direction: column;
+  }
+  /* Аккордеон меню на мобиле — полная ширина */
+  .col-md-3 {
+    margin-bottom: 1rem;
+  }
+  /* Таблицы цен — подсказка о прокрутке */
+  .prod_card_table::before {
+    content: "← прокрутите таблицу →";
+    display: block;
+    font-size: 0.75rem;
+    color: #888;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+}
+
+@media (min-width: 577px) {
+  .prod_card_table::before {
+    display: none;
+  }
+}
