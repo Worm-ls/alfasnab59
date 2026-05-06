@@ -418,33 +418,33 @@
 
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews1.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews2.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews3.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews4.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews5.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews6.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews7.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews8.png" />
-          </swiper-slide>
-          <swiper-slide>
-            <img src="assets/img/reviews/reviews9.png" />
-          </swiper-slide>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews1.png" alt="Отзыв 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews2.png" alt="Отзыв 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews3.png" alt="Отзыв 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews4.png" alt="Отзыв 4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews5.png" alt="Отзыв 5" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews6.png" alt="Отзыв 6" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews7.png" alt="Отзыв 7" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews8.png" alt="Отзыв 8" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/reviews/reviews9.png" alt="Отзыв 9" />
+          </div>
         </div>
       </div>
     </section>
@@ -586,12 +586,12 @@
   <!--=============== SWIPER ===============-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- Initialize Swiper -->
-    <script>
+  <script>
     var swiper = new Swiper(".mySwiper", {
       effect: "coverflow",
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: "auto",
+      slidesPerView: 1,
       coverflowEffect: {
         rotate: 50,
         stretch: 0,
@@ -599,28 +599,15 @@
         modifier: 1,
         slideShadows: true,
       },
-      loop: true,
-      loopFillGroupWithBlank: false, // Отключаем заполнение пустыми слайдами
-      slidesPerGroup: 1, // Устанавливаем значение 1
-      //slidesPerView: 1, // Ограничиваем количество видимых слайдов
-      spaceBetween: 30, // Добавляем пространство между слайдами
-    });</script>
-  <!-- <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
+      breakpoints: {
+        576: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
       },
       loop: true,
+      loopedSlides: 9,
+      spaceBetween: 20,
     });
-  </script> -->
+  </script>
   <!--=============== BRAND CAROUSEL ===============-->
   <script type="text/javascript" src="assets/js/libs.js" defer></script>
   <script type="text/javascript" src="assets/js/common.js" defer></script>
