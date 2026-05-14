@@ -1,9 +1,11 @@
 User-agent: *
 Crawl-delay: 1
-Host: https://alfasnab59.ru
+Host: alfasnab59.ru
 Sitemap: https://alfasnab59.ru/sitemap.xml
 
 Disallow: /assets/img/
 Disallow: /assets/fonts/
 Disallow: /assets/js/
 Disallow: /assets/css/
+Disallow: /woodflow/
+Disallow: /prices.php
